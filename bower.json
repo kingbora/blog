@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "description": "A Vue.js project",
+  "main": "",
+  "authors": [
+    "kingbora <http://github.kingbora.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kingbora/blog",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "static",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
