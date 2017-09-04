@@ -5,6 +5,7 @@ import Article from '../components/Article/Article.vue'
 import About from '../components/About/About.vue'
 import Community from '../components/Community/Community.vue'
 import Detail from '../components/Article/Detail.vue'
+import Editor from '../components/Editor/Editor.vue'
 
 Vue.use(Router)
 
@@ -15,7 +16,8 @@ export default new Router({
     {path: '/about', component: About},
     {path: '/article', component: Article},
     {path: '/community', component: Community},
-    {path: '/detail', component: Detail}
+    {path: '/detail', component: Detail},
+    {path: '/editor', component: Editor}
   ]
 })
 

@@ -14,6 +14,9 @@
               <li class="ui-menu-item">
                 <router-link to="/community">交流社区</router-link>
               </li>
+              <li class="ui-menu-item">
+                <router-link to="/editor">编辑器</router-link>
+              </li>
             </ul>
           </div>
           <div class="col-sm-4 col-md-3 col-lg-3 text-right">
@@ -50,7 +53,6 @@
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
     color: #2c3e50;
     width: 100%;
     height: 100%;
@@ -141,5 +143,6 @@
   }
   .ui-footer p {
     margin: 5px 0;
+    text-align: center;
   }
 </style>

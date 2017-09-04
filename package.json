@@ -13,7 +13,9 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {
+    "mavon-editor": "^2.1.3",
     "vue": "^2.3.4",
+    "vue-resource": "^1.3.4",
     "vue-router": "^2.3.1"
   },
   "devDependencies": {
